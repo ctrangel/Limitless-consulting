@@ -1,0 +1,55 @@
+/* ##############################################################
+   Stylesheet for Home page
+   ############################################################# */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f5f5f5;
+    overflow: hidden;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.nav-bar {
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 15px 0;
+    width: 100%;
+}
+#nav-tabs ul li a {
+    color: #000;
+    text-decoration: none;
+    list-style: none;
+    padding: 0 15px;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    
+}
+
+#nav-tabs ul li a:hover {
+    color: rgb(148, 148, 227);
+}
+
+#nav-tabs ul li {
+    display: inline-block;
+    margin: 0 0 0 15px;
+    position: relative;
+}
+
+#nav-tabs ul {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    list-style: none;
+}
