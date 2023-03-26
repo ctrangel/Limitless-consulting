@@ -12,7 +12,6 @@
 body {
   font-family: "Roboto", sans-serif;
   background-color: #f5f5f5;
-  
 }
 
 .nav-bar {
@@ -390,22 +389,22 @@ body {
 #contact-container {
   display: flex;
   flex-wrap: wrap;
-  height: 700px;
+  height: 1000px;
   align-content: space-between;
-  
   align-items: center;
+  background-color: #98b4c2;
 }
 
 #contact-img {
   margin-left: 21vh;
-    margin-right: 69px;
-    margin-top: 10vh;
+  margin-right: 69px;
+  margin-top: 10vh;
 }
 #contact-img img {
   width: 600px;
   height: 500px;
   float: left;
-  
+  box-shadow: -18px 20px 20px 13px rgb(0 0 0 / 16%);
 }
 
 #contact-form {
@@ -415,22 +414,125 @@ body {
   position: relative;
   right: 20px;
   float: right;
+  border: solid 1px white;
+  border-radius: 10px;
+  margin: 100px auto 0 auto;
+}
+
+#contact-form h1 {
+  margin-left: auto;
+  margin-right: 31%;
+  color: white;
+  margin: 0px auto 0 auto;
+  font-size: 4rem;
 }
 
 #contact-form form {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-
+  padding: 10px 40px 5px 10px;
 }
 
 #contact-form form label {
-  font-size: 30px;
-  
+  font-size: 1.2rem;
+  margin: 10px;
+  color: white;
 }
 
 #contact-form form input {
-  height: 10 px;
+  outline: none;
+  height: 25px;
+  width: 386px;
   border: none;
+  background: none;
+  border-bottom: solid 1px white;
+  color: black;
+  margin: 10px;
+  font-size: 1rem;
+  padding: 10px;
+  border-radius: 2px;
+  margin-bottom: 20px;
+  transition: 0.2s ease-in;
 }
 
+#contact-form form input:hover {
+  background-color: white;
+  font-size: 1rem;
+  padding: 10px;
+}
+
+#contact-form form input:focus {
+  outline: none;
+  border: solid 2px lightblue;
+  background-color: white;
+  font-size: 1rem;
+  padding: 10px;
+}
+
+#message {
+  height: 200px;
+  width: 100%;
+  border: none;
+  background: none;
+  transition: 0.5s ease-in;
+}
+
+#message:hover {
+  background-color: white;
+  font-size: 1rem;
+  padding: 10px;
+}
+#message:focus {
+  outline: none;
+  border: solid 2px lightblue;
+  background-color: white;
+  font-size: 1rem;
+  padding: 10px;
+}
+
+#sub-header {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  margin: 2px auto 0 auto;
+  color: white;
+}
+
+#contact-submit-btn {
+  border: solid 1px white;
+  border-radius: 2px;
+  background-color: white;
+  font-size: 1rem;
+  padding: 10px;
+  width: 100%;
+  margin: 10px 4% auto;
+  transition: 0.2s ease-in;
+
+}
+
+#contact-submit-btn:hover {
+  background-color: #98b4c2;
+  color: white;
+  font-size: 1rem;
+  padding: 10px;
+  
+
+}
+
+#contact-submit-btn:focus {
+  outline: none;
+  border: solid 2px lightblue;
+  background-color: #98b4c2;
+  color: white;
+  font-size: 1rem;
+  padding: 10px;
+}
+
+#contact-location-container iframe {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+  margin: 0 auto 0 auto;
+}

@@ -10,6 +10,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@200&display=swap" rel="stylesheet">
+    <script src="https://cdn.emailjs.com/sdk/2.3.2/email.min.js"></script>
+    <script src="/src/script.js"></script>
 
 </head>
 
@@ -49,19 +51,38 @@
         </div>
         <div id="contact-form">
             <h1>Contact Us</h1>
-            <form action="https://formspree.io/f/xnqppqjw" method="POST">
+            <p id="sub-header">Be in touch today and start your business<br> on a path to success</p>
+            <form action="#" method="POST">
                 <label for="name">Name</label>
                 <input type="text" name="name" id="name" placeholder="Enter your name" required>
                 <label for="email">Email</label>
                 <input type="email" name="email" id="email" placeholder="Enter your email" required>
                 <label for="message">Message</label>
                 <textarea name="message" id="message" cols="30" rows="10" placeholder="Enter your message"
-                    required></textarea>
-                <button type="submit">Submit</button>
+                    optional></textarea>
+                <button id="contact-submit-btn" type="submit" mailto="">Submit</button>
             </form>
         </div>
-        
+
+
+
     </div>
+    <div id="contact-location-container">
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12146.30569622526!2d-80.00414494991765!3d40.440377279210786!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8834f16f48068503%3A0x8df915a15aa21b34!2sPittsburgh%2C%20PA!5e0!3m2!1sen!2sus!4v1679789579588!5m2!1sen!2sus"
+            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+    <footer class="footer" id="footer">
+        <div class="footer-text">
+          <h2>LIMITLESS TECHNOLOGY SOLUTIONS</h2>
+          <p>412-530-5511</p>
+          <p>
+            ©2023 BY LIMITLESS BUSINESS CONSULTING. Built by
+            <a id="creator-link" href="https://www.linkedin.com/in/christian-rangel-9406a0189/">Rangel Pages</a>
+          </p>
+        </div>
+      </footer>
 
 
 </body>
