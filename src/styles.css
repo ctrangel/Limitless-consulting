@@ -536,3 +536,10 @@ body {
   margin-top: 20px;
   margin: 0 auto 0 auto;
 }
+
+.about-hero {
+  background-color: #000;
+  height: 50vh;
+  width: 100%;
+
+}
