@@ -546,7 +546,7 @@ body {
 
 }
 
-.about-hero h1, p {
+.about-hero h1, .about-hero p {
   color: white;
   text-align: center;
   padding-top: 10vh;
@@ -557,4 +557,16 @@ body {
   border-bottom: solid 5px rgb(0, 0, 0);
   width: 50%;
   margin: 0 auto 0 auto;
+}
+
+.grid
+ {
+  display: grid;
+  grid-template-columns: repeat(3,150px);  /* 3 columns */
+  grid-template-rows: repeat(2,150px); /* 3 rows  */
+  grid-gap: 10px;
+}
+.grid-item{
+  border:thin gray solid;
+  padding:10px;
 }
