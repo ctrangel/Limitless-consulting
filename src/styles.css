@@ -537,9 +537,24 @@ body {
   margin: 0 auto 0 auto;
 }
 
+/* ######################### ABOUT PAGE ################################################## */
+
 .about-hero {
   background-color: #000;
   height: 50vh;
   width: 100%;
 
+}
+
+.about-hero h1, p {
+  color: white;
+  text-align: center;
+  padding-top: 10vh;
+  font-size: 4rem;
+}
+
+.bottom-border {
+  border-bottom: solid 5px rgb(0, 0, 0);
+  width: 50%;
+  margin: 0 auto 0 auto;
 }
