@@ -508,7 +508,6 @@ body {
   width: 100%;
   margin: 10px 4% auto;
   transition: 0.2s ease-in;
-
 }
 
 #contact-submit-btn:hover {
@@ -516,8 +515,6 @@ body {
   color: white;
   font-size: 1rem;
   padding: 10px;
-  
-
 }
 
 #contact-submit-btn:focus {
@@ -540,13 +537,38 @@ body {
 /* ######################### ABOUT PAGE ################################################## */
 
 .about-hero {
-  background-color: #000;
+  background-color: #272727;
   height: 50vh;
   width: 100%;
-
 }
 
-.about-hero h1, .about-hero p {
+/* .about-hero h1::after { $$$$$$$$$$$$$$$$$$$$$ three lines idea work on later $$$$$$$$$$$
+  content: "";
+  position: absolute;
+  left: 50%;
+  bottom: -10px; 
+  transform: translateX(-50%);
+  border-bottom: 1px solid rgb(255, 252, 252);
+  width: 40px; 
+} */
+
+.video {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.video iframe {
+  width: 800px;
+  height: 500px;
+  margin: 30px auto 30px auto;
+  border: none;
+  border-radius: 10px;
+  box-shadow: -1px 19px 19px 17px rgb(0 0 0 / 16%);
+}
+
+.about-hero h1,
+.about-hero p {
   color: white;
   text-align: center;
   padding-top: 10vh;
@@ -554,19 +576,21 @@ body {
 }
 
 .bottom-border {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   border-bottom: solid 5px rgb(0, 0, 0);
-  width: 50%;
-  margin: 0 auto 0 auto;
+  width: 100%;
+  margin: 30 auto 30 auto;
 }
 
-.grid
- {
+.grid {
   display: grid;
-  grid-template-columns: repeat(3,150px);  /* 3 columns */
-  grid-template-rows: repeat(2,150px); /* 3 rows  */
+  grid-template-columns: repeat(3, 150px); /* 3 columns */
+  grid-template-rows: repeat(2, 150px); /* 3 rows  */
   grid-gap: 10px;
 }
-.grid-item{
-  border:thin gray solid;
-  padding:10px;
+.grid-item {
+  border: thin gray solid;
+  padding: 10px;
 }
