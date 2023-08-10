@@ -11,7 +11,7 @@
 
 body {
   font-family: "Roboto", sans-serif;
-  background-color: #f5f5f5;
+  background-color: #ffffff;
 }
 
 .nav-bar {
@@ -537,9 +537,14 @@ body {
 /* ######################### ABOUT PAGE ################################################## */
 
 .about-hero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   background-color: #272727;
   height: 50vh;
   width: 100%;
+  margin-bottom: 10px;
 }
 
 /* .about-hero h1::after { $$$$$$$$$$$$$$$$$$$$$ three lines idea work on later $$$$$$$$$$$
@@ -566,31 +571,150 @@ body {
   border-radius: 10px;
   box-shadow: -1px 19px 19px 17px rgb(0 0 0 / 16%);
 }
-
+.about-hero h1 {
+  margin-bottom: 100px;
+}
 .about-hero h1,
 .about-hero p {
   color: white;
   text-align: center;
-  padding-top: 10vh;
   font-size: 4rem;
 }
 
-.bottom-border {
+.about-hero p {
+  font-size: 2.5rem;
+  margin: 5px 10px;
+}
+
+/* .bottom-border {
   display: flex;
   justify-content: center;
   align-items: center;
-  border-bottom: solid 5px rgb(0, 0, 0);
+  border-bottom: solid 1px rgb(0, 0, 0);
   width: 100%;
-  margin: 30 auto 30 auto;
+
+} */
+
+#second-p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#second-p h2 {
+  text-align: center;
+  font-size: 1.5rem;
+  margin: 50px 50px;
+}
+
+#third-p {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 30px auto 30px auto;
+  width: 100%;
+  height: 100px;
+  flex-direction: column;
+  align-content: center;
+  flex-wrap: wrap;
 }
 
 .grid {
   display: grid;
-  grid-template-columns: repeat(3, 150px); /* 3 columns */
-  grid-template-rows: repeat(2, 150px); /* 3 rows  */
-  grid-gap: 10px;
+  grid-template-columns: repeat(3, 150px);
+  grid-template-rows: repeat(2, 150px);
+  grid-gap: 203px;
+  width: 100%;
+  justify-items: center;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
 }
 .grid-item {
   border: thin gray solid;
   padding: 10px;
+  overflow: hidden;
+  width: 300px;
+  margin: 30px 30px;
+  height: 250px;
+}
+
+.grid-item h1 {
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+#third-p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 30px auto 30px auto;
+  width: 100%;
+  height: 100px;
+}
+
+#fourth-p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 30px auto 30px auto;
+  width: 100%;
+  height: 1000px;
+}
+
+
+
+.a-card {
+  display: flex;
+  align-items: flex-start;
+  margin: 30px auto 30px auto;
+  width: 100%;
+  height: 141px;
+  justify-content: center;
+  align-content: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+  padding: 10px;
+}
+
+.a-card h2 {
+  margin-bottom: 10px;
+}
+.a-card p {
+  margin-left: 10px;
+  width: 809px;
+}
+
+#about-contact-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#contact-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  background-color: rgb(168, 222, 247);
+  font-size: 1rem;
+  padding: 10px;
+  width: 50%;
+  transition: 0.2s ease-in;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+#contact-btn a {
+  font-size: 15px;
+  text-decoration: none;
+  color: black;
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+#contact-btn a:hover {
+  background-color: #ffffff;
+  color: rgb(0, 0, 0);
+  padding: 10px;
+  transition: ease-in 0.2s;
 }
