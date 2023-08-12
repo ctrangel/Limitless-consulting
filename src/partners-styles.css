@@ -1,0 +1,90 @@
+/* ######################### partners page ################################################## */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Mulish", sans-serif;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: #ffffff;
+}
+
+.nav-bar {
+  background-color: #fff;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  padding: 15px 0;
+  width: 100%;
+  z-index: 9999;
+}
+#nav-tabs ul li a {
+  color: #000;
+  text-decoration: none;
+  list-style: none;
+  padding: 0 15px;
+  font-size: 16px;
+  font-weight: 800;
+  line-height: 1.5;
+  margin: 15px;
+}
+
+#nav-tabs ul li a:hover {
+  color: rgb(148, 148, 227);
+}
+
+#nav-tabs ul li {
+  display: inline-block;
+  margin: 0 0 0 15px;
+  position: relative;
+}
+
+#nav-tabs ul {
+  display: flex;
+  justify-content: right;
+  margin-right: 8vh;
+  margin-top: 0;
+  align-items: center;
+  list-style: none;
+  position: relative;
+  top: -25px;
+}
+
+#logo {
+  margin-left: 8vh;
+  margin-top: 10px;
+  position: relative;
+  top: 0;
+  left: 0;
+}
+
+.footer {
+  background-color: #f2f2f2;
+  padding: 20px;
+  text-align: center;
+}
+
+.footer-text {
+  font-size: 1.2rem;
+  color: #555;
+}
+
+.footer-text h2 {
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+#creator-link {
+  color: #555;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+#apologies {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 200px auto 30px auto;
+  width: 100%;
+  height: 100px;
+}
