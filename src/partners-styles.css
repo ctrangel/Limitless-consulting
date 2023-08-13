@@ -178,3 +178,47 @@ body {
   padding: 20px;
   text-align: center;
 }
+
+#our-services-2 {
+  background-color: rgb(155, 194, 210);
+  display: flex;
+  justify-content: center;
+  height: 45vh;
+  flex-direction: column;
+  align-items: center;
+}
+
+#our-services-cards-2 {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+#partner-list-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 70vh;
+}
+
+#partner-list-btn {
+  background-color: rgb(155, 194, 210); 
+  border: none;
+  border-radius: 10px;
+  height: 50px;
+  width: 200px;
+  font-size: 20px;
+  transition: ease-in-out 0.3s;
+}
+
+#partner-list-btn a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+#partner-list-btn:hover {
+  background-color: rgb(0, 0, 0, 0.5);
+  transition: ease-in-out 0.3s;
+}
